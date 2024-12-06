@@ -1,0 +1,25 @@
+{
+    "name": "note_app",
+    "version": "1.0.0",
+    "description": "A simple note-taking application using Node.js and Express.js",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "dotenv": "^16.4.7",
+        "ejs": "^3.1.10",
+        "express": "^4.21.1",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.2.10",
+        "mongodb": "^6.11.0",
+        "mongoose": "^8.8.4",
+        "note_app": "file:",
+        "prettier": "^3.4.2"
+    },
+    "keywords": []
+}

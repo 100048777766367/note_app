@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/public/styles/styles.css">
+  <title>Courses</title>
+</head>
+<body>
+  <h1>Courses</h1>
+  <a href="/courses/add">Add a Course</a>
+  <ul>
+    <% courses.forEach(course => { %>
+      <li>
+        <strong><%= course.name %></strong>: <%= course.description %><br>
+        <img src="<%= course.image %>" alt="<%= course.name %>" width="150">
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>

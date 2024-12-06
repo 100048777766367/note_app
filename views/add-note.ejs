@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/public/styles/styles.css">
+  <title>Add Course</title>
+</head>
+<body>
+  <h1>Add a Course</h1>
+  <form action="/courses/add" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required><br>
+    <label>Description:</label>
+    <textarea name="description" rows="4" required></textarea><br>
+    <label>Image URL:</label>
+    <input type="text" name="image"><br>
+    <button type="submit">Add Course</button>
+  </form>
+  <a href="/courses">Back to Courses</a>
+</body>
+</html>
